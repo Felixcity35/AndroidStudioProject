@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "693848586435",
+    "firebase_url": "https://fcmassaging-6ed1f.firebaseio.com",
+    "project_id": "fcmassaging-6ed1f",
+    "storage_bucket": "fcmassaging-6ed1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693848586435:android:d39be30ed3a0c82b",
+        "android_client_info": {
+          "package_name": "codingwithmitch.com.firebasedirectmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693848586435-3vd9a355pvms6cvqvl0ubnp8mgscvl55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "codingwithmitch.com.firebasedirectmessage",
+            "certificate_hash": "04b456a476fe02a10ec9e7b80e6cac8fb0ee29fd"
+          }
+        },
+        {
+          "client_id": "693848586435-j80737em365p4jgejld883mqinblifcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNPYjKftd_CDaV5WYO2FijCH88ZQBckqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693848586435-j80737em365p4jgejld883mqinblifcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693848586435:android:b0fb7cfc500f1280",
+        "android_client_info": {
+          "package_name": "com.felixcity.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693848586435-68sc85iv31fm8608u75ncjs3treepe9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.felixcity.chatapp",
+            "certificate_hash": "04b456a476fe02a10ec9e7b80e6cac8fb0ee29fd"
+          }
+        },
+        {
+          "client_id": "693848586435-j80737em365p4jgejld883mqinblifcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNPYjKftd_CDaV5WYO2FijCH88ZQBckqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693848586435-j80737em365p4jgejld883mqinblifcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

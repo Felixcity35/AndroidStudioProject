@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_livestream"
+            android:title="Livestream" />
+        <item
+            android:id="@+id/nav_download"
+            android:title="Download" />
+        <item
+            android:id="@+id/nav_find_us"
+            android:title="Find Us" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Gallary" />
+
+        <item
+            android:id="@+id/nav_Event"
+            android:title="Event" />
+    </group>
+
+</menu>

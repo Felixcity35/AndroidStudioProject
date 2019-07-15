@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GI Interlocking</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="about">GI Interlocking is developed with a deep passion of putting an end to the menace of improper waste disposal and enhancing recycling of waste.</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="wastemanagement"> are the activities and actions required to manage waste from its inception to its final disposal.[1] This includes the collection, transport, treatment and disposal of waste, together with monitoring and regulation of the waste management process.
+
+Waste can be solid, liquid, or gaseous and each type has different methods of disposal and management. Waste management deals with all types of waste, including industrial, biological and household. In some cases, waste can pose a threat to human health.[2] Waste is produced by human activity, for example, the extraction and processing of raw materials.[3] Waste management is intended to reduce adverse effects of waste on human health, the environment or aesthetics.</string>
+
+    <string-array name="wasteType">
+
+        <item> Type of waste </item>
+        <item> Plastic Waste </item>
+        <item> Paper/Card Waste </item>
+        <item> Tin and Metals </item>
+        <item> Ceramic and Glass </item>
+
+    </string-array>
+
+
+</resources>

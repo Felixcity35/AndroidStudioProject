@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonateWasteActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/plasticmanage"
+            android:background="#000"
+            android:id="@+id/logo"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_marginTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:hint="Name"
+            />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:hint="Location"
+            />
+
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/location"
+    android:layout_marginTop="8dp"
+    android:entries="@array/wasteType"
+    android:id="@+id/spinner"
+    >
+</Spinner>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/addrress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner"
+            android:layout_marginTop="10dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:hint="Address"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addrress"
+            android:layout_marginTop="10dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:hint="Phone"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:hint="Date"
+            android:layout_below="@+id/phone"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="8dp"
+            android:focusable="false"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_below="@+id/date"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:id="@+id/submit"
+            />
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537642789971",
+    "firebase_url": "https://kingidee-word-of-faith-covenan.firebaseio.com",
+    "project_id": "kingidee-word-of-faith-covenan",
+    "storage_bucket": "kingidee-word-of-faith-covenan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537642789971:android:5b1de101ba21f30b",
+        "android_client_info": {
+          "package_name": "com.idee.wordoffaithcovenantassemblyapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537642789971-lenrm18f8d8242jh6knvhvb3u7oqe5tc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.idee.wordoffaithcovenantassemblyapplication",
+            "certificate_hash": "04b456a476fe02a10ec9e7b80e6cac8fb0ee29fd"
+          }
+        },
+        {
+          "client_id": "537642789971-k4fhp690baqciksht9fsusk3tn2l2q1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp5NBBog3O4YEJn9Nx_bGgRBivgZHyQhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537642789971-k4fhp690baqciksht9fsusk3tn2l2q1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+<TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Felix Archibong"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_below="@+id/image"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="8dp"
+    android:padding="4dp"
+    />
+
+<View
+    android:id="@+id/line"
+    android:layout_below="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="#000000"
+    />
+
+<TextView
+    android:id="@+id/track"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Track:    Android"
+    android:textSize="18sp"
+    android:fontFamily="sans-serif-condensed"
+    android:textStyle="bold|italic"
+    android:layout_below="@+id/line"
+    android:layout_marginTop="40dp"
+    android:layout_marginStart="20dp"
+    />
+
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country:    Nigeria"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/track"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:    FelixArchibong@gmail.com"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/country"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:    2348178199999"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/slack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slack Username:  @Felix Archibong  "
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+
+
+</RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/detailScrollView"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:forceHasOverlappingRendering="true"
+    tools:context="com.pioneerx1.reptracker.ui.RepDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayoutRepProfile"
+        >
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/repDetailNameTextView"-->
+            <!--android:text="Text for Rep Name"-->
+            <!--/>-->
+
+        <TextView
+            android:id="@+id/repDetailTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text for Title" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/repDetailMemberIdTextView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Text for Member Id" />-->
+
+        <TextView
+            android:id="@+id/repDetailStateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text for State" />
+
+        <TextView
+            android:id="@+id/repDetailPartyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text for Party" />
+
+        <TextView
+            android:id="@+id/repDetailPhoneTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text for Phone" />
+
+        <TextView
+            android:id="@+id/repDetailWebsiteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text for Website" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/repDetailTwitterTextView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Text for Twitter" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/repDetailFacebookTextView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Text for Facebook" />-->
+
+        <TextView
+            android:id="@+id/repDetailMissedVotesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text for Missed Votes"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/repDetailVotesWithPartyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text for Votes With Party"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/repDetailNextElectionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text for Next Election"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveRepButton"
+            android:text="Save This Rep"
+            android:layout_gravity="right"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/votesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

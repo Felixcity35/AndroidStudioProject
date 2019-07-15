@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.pioneerx1.reptracker.ui.RepListFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleTextViewRepList"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryLight"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="List of Reps"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTextViewRepList"
+        android:layout_marginTop="50dp"
+        android:id="@+id/congressRepsRecyclerView"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

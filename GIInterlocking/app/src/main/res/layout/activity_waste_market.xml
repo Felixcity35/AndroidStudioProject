@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WasteMarketActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="185dp"
+            android:layout_height="169dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_menu_camera" />
+
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv"
+            android:layout_marginTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:hint="Location"/>
+
+        <EditText
+            android:id="@+id/Kilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/location"
+            android:layout_marginTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:hint="Kilo"
+            />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Kilo"
+            android:layout_marginTop="8dp"
+            android:entries="@array/wasteType"
+            android:id="@+id/spinner">
+        </Spinner>
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/addrress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="10dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:hint="Address"
+        />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/addrress"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:hint=" Short Description "
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/linear"
+            android:paddingTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="4dp"
+            />
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
